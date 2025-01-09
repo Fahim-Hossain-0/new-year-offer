@@ -191,7 +191,7 @@ color: #F00;
     line-height:32p;
     /* color: #07021199
       */
-      c
+      /* c */
 }
 .Holidays{
     color: #FF0000;
@@ -223,4 +223,43 @@ color: #07021199;
   /* flex-wrap: wrap; */
   margin-top:24px;
     gap: 24px;
+}
+.newsletter-container{
+    margin-top: 120px;
+}
+.newsletter{
+    padding: 80px 210px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 5px;
+}
+.newsletter img{ 
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.newsletter h2{
+    margin-top: 40px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211
+}
+.newsletter p{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.input{
+    color: #0702114D;
+    padding: 15px 32px;
+    border: none;
+    background: white;
+    margin-top: 45px;
+}
+.input-btn{
+    color: white;
+    background-color: #F00;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 5px 50px 50px 5px ;
 }
