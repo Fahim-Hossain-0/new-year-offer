@@ -27,7 +27,7 @@ main{
     align-items: center;
     background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(images/Banner\ Image.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     color: white;
@@ -125,4 +125,102 @@ font-weight: 400;
 .place-date-time-containre p{
     font-size: 32px;
     font-weight: 600;
+}
+.coming-soon{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 100px;
+ margin-top: 120px;
+}
+.coming-soon-start{
+
+}
+.coming-soon-start p{
+font-size: 24px;
+font-weight: 500;
+color: #F00;
+}
+.coming-soon-start h3{
+    font-size: 48px;
+    font-weight: 900;
+}
+.coming-soon-start p:last-child{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+
+}
+.coming-soon-middle{
+
+}
+.coming-soon-end{
+
+}
+.coming-soon-end h2{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.coming-soon-end p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);    
+}
+.sale{
+    text-align: center;
+    margin-top: 120px;
+}
+.sale p{
+  font-size: 24px; 
+  font-weight: 500;
+  color: black;
+   
+}
+.sale h2{
+ margin-top: 16px;
+ margin-bottom: 28px;
+ font-size: 72px;
+ font-weight: 900;
+}
+.sale p:last-child{
+    font-size: 20px;
+    font-weight:500;
+    line-height:32p;
+    /* color: #07021199
+      */
+      c
+}
+.Holidays{
+    color: #FF0000;
+}
+.portfolio-container{
+margin-top: 120px;
+}
+.portfolio{
+    text-align: start;
+}
+.portfolio p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+}
+.portfolio p:nth-child(2){
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+}
+.portfolio p:last-child{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+color: #07021199;
+}
+.portfolio-img{
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-top:24px;
+    gap: 24px;
 }
