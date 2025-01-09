@@ -62,7 +62,11 @@ font-weight: 400;
 .off-container p{
     font-size: 24px;
     font-weight: 500;
+    color: #FF0000;
     margin-bottom: 16px;
+}
+.off-container  p:last-child{
+    
 }
 .second-banner{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(images/Vectorrr.png);
