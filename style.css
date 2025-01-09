@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+  }
+  
+.inter{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+.first-banner{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(images/Banner\ Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    border-radius: 16px;
+/* background: ; */
+    text-align: center;
+}
+.first-banner h5{
+font-size: 32px;
+font-weight: 400;
+}
+.first-banner h1{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+.off-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+
+
+}
+.off-container h2{
+    font-size: 88px;
+    font-weight:700;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.off-container p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.second-banner{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:600px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 120px; 
+}
+.second-banner-container{
+   text-align: start    ;
+}
+.second-banner-container h1{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04; 
+    color: white;
+}
+.second-banner-container p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.80);
+    margin: 24px 0 40px 0;
+}
+.second-banner-container button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.second-banner-container button:hover{
+    border: 1px solid white;
+}
+.place-date-time{
+ margin-top: 120px;   
+
+}
+.place-date-time-containre{
+    padding: 110px 300px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.place-date-time-containre p{
+    font-size: 32px;
+    font-weight: 600;
+}
